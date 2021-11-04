@@ -11,7 +11,7 @@ module.exports = {
       directory: './db/seeds/dev'
     },
     useNullAsDefault: null
-  },
+  }
 
   // staging: {
   //   client: 'postgresql',
@@ -29,20 +29,20 @@ module.exports = {
   //   }
   // },
 
-  production: {
-    client: 'postgresql',
-    connection: {
-      database: './db/seeds/dev/papers.js',
-      user:     'elise',
-      password: NULL
-    },
-    pool: {
-      min: 2,
-      max: 10
-    },
-    migrations: {
-      directory: './db/migrations'
-    }
-  }
+  // production: {
+  //   client: 'postgresql',
+  //   connection: {
+  //     database: './db/seeds/dev/papers.js',
+  //     user: 'elise',
+  //     password: null
+  //   },
+  //   pool: {
+  //     min: 2,
+  //     max: 10
+  //   },
+  //   migrations: {
+  //     directory: './db/migrations'
+  //   }
+  // }
 
 };
